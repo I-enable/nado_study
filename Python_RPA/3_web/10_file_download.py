@@ -3,7 +3,7 @@ import time
 from selenium.webdriver.chrome.options import Options
 
 chrome_options = Options()
-chrome_options.add_experimental_option('prefs', {'download.default_directory':r'C:\Users\심재형\Desktop\코딩\python test'})
+chrome_options.add_experimental_option('prefs', {'download.default_directory':r'C:\Users\내이름\Desktop\코딩\python test'})
 
 browser = webdriver.Chrome(options=chrome_options) # 다운로드 경로를 옵션으로 정함
 browser.get('https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_download')
