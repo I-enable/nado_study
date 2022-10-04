@@ -4,3 +4,4 @@ tmdb_5000_credits.csv
 movies.pickle
 cosine_sim2.pickle
 no_image.png
+ratings_small.csv
